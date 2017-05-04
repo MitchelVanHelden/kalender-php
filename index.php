@@ -140,19 +140,7 @@
                 
             <a href="delete.php?id=11">x</a>
         </p>
-        <?php foreach ($students as $student) { ?>
-        <tr>
-            <td><?= $birthday['id']; ?></td>
-            <td><?= $birthday['firstname']; ?></td>
-            <td><?= $birthday['year']; ?></td>
-            <td><?= $birthday['month']; ?></td>
-            <td><?= $birthday['day']; ?></td>
-            <td><a href="<?= URL ?>edit.php/<?= $birthday['id'] ?>">Edit</a></td>
-            <td><a href="<?= URL ?>delete.php/<?= $birthday['id'] ?>">Delete</a></td>
-        </tr>
-
-        <?php } ?>
-
+       
 <p><a href="create.php">+ Toevoegen</a></p>
 
 	</body>
